@@ -18,5 +18,9 @@ check git --version
 aws configure
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
-
-
+terraform init
+terraform validate
+terraform plan
+terraform apply
+Apply will be completed and create 10 resources
+Check and confirm through AWS management console
