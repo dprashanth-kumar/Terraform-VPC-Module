@@ -24,3 +24,6 @@ terraform plan
 terraform apply
 Apply will be completed and create 10 resources
 Check and confirm through AWS management console
+My_First_VPC-vpc will be created
+Make sure to delete all resources you have created
+terraform destroy
