@@ -1,6 +1,7 @@
 module "vpc" {
   source = "git::https://github.com/<your-username>/terraform-vpc-module.git"
 
+  region           = var.region
   project_name     = var.project_name
   vpc_cidr         = var.vpc_cidr
   public_subnets   = var.public_subnets
