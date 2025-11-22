@@ -6,8 +6,17 @@ unzip terraform_1.9.1_linux_amd64.zip
 sudo mv terraform /usr/local/bin/
 terraform -version
 #Install AWS CLI
-sudo apt-get update
-sudo apt-get install python3-pip
-sudo pip install awscli
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo apt install unzip -y
+unzip awscliv2.zip
+sudo ./aws/install
+chmod +x ./aws/install
+sudo ./aws/install
 aws --version
 check git --version
+aws configure
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+
+
