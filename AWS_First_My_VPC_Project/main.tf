@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "git::https://github.com/<your-username>/terraform-vpc-module.git"
+  source = "https://github.com/dprashanth-kumar/Terraform-VPC-Module.git"
 
   region           = var.region
   project_name     = var.project_name
