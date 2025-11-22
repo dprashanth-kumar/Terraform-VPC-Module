@@ -1,6 +1,7 @@
 variable "project_name" {
   description = "Name prefix for all resources"
   type        = string
+  default     = "My_First_VPC"
 }
 
 variable "vpc_cidr" {
