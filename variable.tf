@@ -1,5 +1,5 @@
-variable "project_name" {
-  description = "My_First_VPC"
+variable "My_First_VPC" {
+  description = "Name prefix for all resources"
   type        = string
 }
 
